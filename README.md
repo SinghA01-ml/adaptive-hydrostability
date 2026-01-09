@@ -3,7 +3,7 @@ This code repository is associated with the manuscript: Adaptive sampling for hy
 
 The repository contains the MATLAB and Python code used to generate hydrodynamic stability datasets with IFISS software package (version 3.7) and to perform adaptive sampling using the KRnet, a flow-based deep generative model.
 
-Only codes written by the authors are included. External software (IFISS and KRnet) must be downloaded separately.
+Only codes written by the author are included. External software (IFISS and KRnet) must be downloaded separately.
 
 ---
 
