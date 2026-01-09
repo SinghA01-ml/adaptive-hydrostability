@@ -1,0 +1,9 @@
+total 112
+drwxr-xr-x  9 b50093as  staff    288  9 Jan 13:43 data
+drwxr-xr-x  9 b50093as  staff    288  9 Jan 13:45 Figure_validation
+drwxr-xr-x  9 b50093as  staff    288  9 Jan 13:49 matlab_ifiss_wrappers
+-rw-r--r--@ 1 b50093as  staff  11702  9 Jan 13:52 plot_bifurcation_boundary.py
+-rw-r--r--@ 1 b50093as  staff   2355  9 Jan 13:52 shallowNN_tf.py
+-rw-r--r--@ 1 b50093as  staff   5924  9 Jan 13:53 hydro_train.py
+-rw-r--r--@ 1 b50093as  staff  30805  9 Jan 13:57 bifurcation_das.py
+-rw-r--r--  1 b50093as  staff      0  9 Jan 14:00 contents.txt
