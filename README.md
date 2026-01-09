@@ -66,6 +66,8 @@ and only copy the `BR_lib/` folder (containing the three scripts above) into the
 
 ## Running the Code
 
+To check out the data-processing software, download and unpack the file adaptive-hydrostability.gz
+
 This repository provides the full code for the workflow, allowing users to run any number of adaptive steps for each of the three problems included in the manuscript: Symmetry-breaking Channel Flow, Rayleigh–Benard Convection, and Differentially Heated Cavity.
 
 For convenience and quick testing, small example datasets are included, corresponding to a single adaptive step.
