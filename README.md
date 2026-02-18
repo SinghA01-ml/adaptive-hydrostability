@@ -9,8 +9,8 @@ Only codes written by the author are included. External software (IFISS and KRne
 
 ## Requirements
 
-- TensorFlow >= 2.0
-- TensorFlow Probability
+- TensorFlow = 2.13.0
+- TensorFlow Probability = 0.21.0
 
 ---
 
@@ -107,7 +107,7 @@ To produce representative figures using the example datasets:
 1. First, train the model with the included examples (10 initial training points) using `hydro_train.py`.
 
 2. Then, run the plotting script to visualize the training data classifications and bifurcation boundary:
-- python plot_bifurcation_boundary.py --probsetup 1  
+- python plot_bifurcation_boundary.py --probsetup 1 
 - python plot_bifurcation_boundary.py --probsetup 2
 - python plot_bifurcation_boundary.py --probsetup 3
 
