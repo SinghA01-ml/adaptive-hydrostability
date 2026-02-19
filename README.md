@@ -123,9 +123,6 @@ Approximate runtimes for max_stages = 2 (initial + first adaptive stage) are:
 - Problem 2: ~30 minutes
 - Problem 3: up to ~4 hours
 
-Actual runtime depends on system specifications and the number of available CPU cores (Parallel Computing Toolbox).
-
-
 ## Generating Validation Figures
 
 To produce representative figures using the example datasets:
