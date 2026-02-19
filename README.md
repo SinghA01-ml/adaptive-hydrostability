@@ -124,6 +124,7 @@ To produce representative figures using the example datasets:
 
 2. Then, run the plotting script to visualize the training data classifications and bifurcation boundary:
 - python plot_bifurcation_boundary.py --probsetup x --adaptive_step y
+
 where:
 x ∈ {1, 2, 3} selects the problem:
 - 1 : Problem 1
