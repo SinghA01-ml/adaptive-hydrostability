@@ -120,8 +120,8 @@ Runtime Note:
 Approximate runtimes for max_stages = 2 (initial + first adaptive stage) are:
 
 - Problem 1: ~20 minutes
-- Problem 2: ~30 minutes
-- Problem 3: up to ~4 hours
+- Problem 2: ~10 minutes
+- Problem 3: ~4 hours
 
 ## Generating Validation Figures
 
