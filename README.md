@@ -116,6 +116,8 @@ To label the new points, the Python script calls the MATLAB functions included i
 - run_rbc_parallel.m – Rayleigh-Benard Convection
 - run_dhc_parallel.m – Differentially Heated Cavity
 
+**Note:** Running --probsetup 1 --max_stages 2 (initial + first adaptive stage) may take approximately 30 minutes, depending on your hardware. Please allow the training to complete without interruption.
+
 
 ## Generating Validation Figures
 
