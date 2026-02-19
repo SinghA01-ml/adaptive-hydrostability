@@ -75,7 +75,7 @@ and only copy the `BR_lib/` folder (containing the three scripts above) into the
 
 To check out the data-processing software, download and unpack the file adaptive-hydrostability.gz
 
-This repository provides the full code for the workflow, allowing users to run any number of adaptive steps for each of the three problems included in the manuscript: Symmetry-breaking Channel Flow, Rayleigh–Benard Convection, and Differentially Heated Cavity.
+This repository provides the full code for the workflow, allowing users to run any number of adaptive steps for each of the three problems included in the manuscript: Symmetry-breaking Channel Flow, Rayleigh--Benard Convection, and Differentially Heated Cavity.
 
 For convenience and quick testing, small example datasets are included, corresponding to a single adaptive step.
 
@@ -99,12 +99,12 @@ The associated data files (problem1.txt, problem2.txt, problem3.txt) included in
 python hydro_train.py --probsetup x --max_stages y
 
 where:
-x ∈ {1, 2, 3} selects the problem:
+x in {1, 2, 3} selects the problem:
 - 1 : Problem 1
 - 2 : Problem 2
 - 3 : Problem 3
 
-y ∈ {1, 2} controls the number of steps:
+y in {1, 2} controls the number of steps:
 - --max_stages 1 : Initial step only
 - --max_stages 2 : Initial step + first adaptive step
 
@@ -133,12 +133,12 @@ To produce representative figures using the example datasets:
 - python plot_bifurcation_boundary.py --probsetup x --adaptive_step y
 
 where:
-x ∈ {1, 2, 3} selects the problem:
+x in {1, 2, 3} selects the problem:
 - 1 : Problem 1
 - 2 : Problem 2
 - 3 : Problem 3
 
-y ∈ {1, 2} defines the step:
+y in {1, 2} defines the step:
 - --adaptive_step 1 : Initial step only
 - --adaptive_step 2 : First adaptive step only
 
