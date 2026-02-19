@@ -41,7 +41,7 @@ After downloading, ensure that IFISS is installed and correctly added to your MA
 **Important:**  
 The MATLAB executable path and IFISS installation folder must be specified by the user. In the file bifurcation_das.py, these paths are defined on lines 629 and 630:
 - Line 629: Path to the MATLAB executable (MATLAB_BIN)
-- Line 630: Path to the IFISS installation directory (IFISS_DIR, tested with parallel IFISS version 3.7)
+- Line 630: Path to the IFISS installation directory (IFISS_DIR)
 
 Users should modify these two lines to match the locations of their own MATLAB installation and IFISS directory. All computations were performed using MATLAB R2025a.
 
