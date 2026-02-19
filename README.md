@@ -131,7 +131,7 @@ x ∈ {1, 2, 3} selects the problem:
 - 2 : Problem 2
 - 3 : Problem 3
 
-y ∈ {1, 2} controls the number of steps:
+y ∈ {1, 2} defines the step:
 - --adaptive_step 1 : Initial step only
 - --adaptive_step 2 : First adaptive step only
 
