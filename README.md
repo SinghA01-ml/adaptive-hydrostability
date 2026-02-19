@@ -95,9 +95,19 @@ The associated data files (problem1.txt, problem2.txt, problem3.txt) included in
 
 ### Steps to run the example:
 
-python hydro_train.py 
+python hydro_train.py --probsetup x --max_stages y
 
-When hydro_train.py is run on these examples, it also generates 10 new sample points using KRNet for the first adaptive step, which are also included in the `data/` folder for each problem. 
+where:
+x ∈ {1, 2, 3} selects the problem:
+- 1 : Problem 1
+- 2 : Problem 2
+- 3 : Problem 3
+
+y ∈ {1, 2} controls the number of steps:
+- --max_stages 1 : Initial step only
+- --max_stages 2 : Initial step + first adaptive step
+
+When --max_stages 2 is used, the script performs the initial and first adaptive step and generates 10 new sample points using KRNet. These generated samples are already included in the corresponding data/ folder for each problem.
 
 To label the new points, the Python script calls the MATLAB functions included in matlab_ifiss_wrappers/:
 
