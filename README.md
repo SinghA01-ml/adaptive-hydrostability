@@ -43,7 +43,7 @@ The MATLAB executable path and IFISS installation folder must be specified by th
 - Line 629: Path to the MATLAB executable (MATLAB_BIN)
 - Line 630: Path to the IFISS installation directory (IFISS_DIR)
 
-Users should modify these two lines to match the locations of their own MATLAB installation and IFISS directory. All computations were performed using MATLAB R2025a.
+Users should modify these two lines to match the locations of their own MATLAB installation and IFISS directory.
 
 The code does not require users to replicate the folder structure of the developer’s machine; only the correct absolute paths to MATLAB and the IFISS folder need to be provided.
 
@@ -123,9 +123,16 @@ To produce representative figures using the example datasets:
 1. First, train the model with the included examples (10 initial training points) using `hydro_train.py`.
 
 2. Then, run the plotting script to visualize the training data classifications and bifurcation boundary:
-- python plot_bifurcation_boundary.py --probsetup 1 
-- python plot_bifurcation_boundary.py --probsetup 2
-- python plot_bifurcation_boundary.py --probsetup 3
+- python plot_bifurcation_boundary.py --probsetup x --adaptive_step y
+where:
+x ∈ {1, 2, 3} selects the problem:
+- 1 : Problem 1
+- 2 : Problem 2
+- 3 : Problem 3
+
+y ∈ {1, 2} controls the number of steps:
+- --adaptive_step 1 : Initial step only
+- --adaptive_step 2 : First adaptive step only
 
 NOTE: This step is only for validation purposes. These pictures are not added in the manuscript.
       
