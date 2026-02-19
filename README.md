@@ -105,8 +105,8 @@ x in {1, 2, 3} selects the problem:
 - 3 : Problem 3
 
 y in {1, 2} controls the number of steps:
-- --max_stages 1 : Initial step only
-- --max_stages 2 : Initial step + first adaptive step
+- 1 : Initial step only
+- 2 : Initial step + first adaptive step
 
 When --max_stages 2 is used, the script performs the initial and first adaptive step and generates 10 new sample points using KRNet. These generated samples are already included in the corresponding data/ folder for each problem.
 
@@ -139,8 +139,8 @@ x in {1, 2, 3} selects the problem:
 - 3 : Problem 3
 
 y in {1, 2} defines the step:
-- --adaptive_step 1 : Initial step only
-- --adaptive_step 2 : First adaptive step only
+- 1 : Initial step only
+- 2 : First adaptive step only
 
 NOTE: This step is only for validation purposes. These pictures are not added in the manuscript.
       
